@@ -84,7 +84,7 @@ function Hero() {
                   Frontend Technologies
                 </h1>
 
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/html.png" alt="" />
                     HTML
@@ -103,7 +103,7 @@ function Hero() {
                   Programming Languages
                 </h1>
 
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/java.png" alt="" />
                     Core java
@@ -121,7 +121,7 @@ function Hero() {
                 <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
                   FrameWorks:
                 </h1>
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-base text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/react.png" alt="" />
                     ReactJS
@@ -143,7 +143,7 @@ function Hero() {
                 <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
                   API s & Library:
                 </h1>
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/twillio.png" alt="" />
                     Twillio
@@ -161,7 +161,7 @@ function Hero() {
                     DropZone
                   </button>
                 </div>
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/fetchapi.png" alt="" />
                     Fetch API
@@ -179,7 +179,7 @@ function Hero() {
                   DevOPS:
                 </h1>
 
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/react.png" alt="" />
                     non
@@ -198,7 +198,7 @@ function Hero() {
                   Server Technologies:
                 </h1>
 
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/servlet.png" alt="" />
                     Servlet
@@ -216,7 +216,7 @@ function Hero() {
                     JSTL
                   </button>
                 </div>
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/mvc.png" alt="" />
                     MVC Architecture
@@ -231,7 +231,7 @@ function Hero() {
                   DataBase:
                 </h1>
 
-                <div className="flex items-center">
+                <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                     <img className="w-8 mr-2" src="/images/mysql.png" alt="" />
                     MySQL
