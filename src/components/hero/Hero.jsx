@@ -72,7 +72,7 @@ function Hero() {
         <div className="bg-white dark:bg-gray-800 px-4 mx-4  rounded-xl shadow">
 
           <div className="italic place-self-center text-3xl font-bold text-green-400 dark:text-green-400 dark:bg-black">
-            <u>SKILLS</u>
+            <u>SKILS</u>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
