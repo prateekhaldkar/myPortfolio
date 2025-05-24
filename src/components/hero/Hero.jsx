@@ -1,3 +1,4 @@
+import { script } from "framer-motion/client";
 import React from "react";
 
 function Hero() {
@@ -8,13 +9,13 @@ function Hero() {
 
           {/* Introduction */}
           <div className="ml-6 lg:col-span-5">
-            <p className="max-w-2xl font-light text-green-400 md:text-lg lg:text-xl dark:text-green-400">
+            <p className="max-w-2xl font-light text-green-400 md:text-lg lg:text-2xl dark:text-green-400">
               Hello, my name is
             </p>
-            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-700 md:text-5xl xl:text-6xl dark:text-gray-200">
+            <p className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-700 md:text-5xl xl:text-6xl dark:text-gray-200">
               Prateek Haldkar
-            </h1>
-            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+            </p>
+            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-2xl dark:text-gray-400">
               I'm pursuing a BTECH, specialization in Electronics & Communication engineering (ECE)
             </p>
             {/* Icons Section (Hidden on small screens) */}
@@ -33,12 +34,25 @@ function Hero() {
                 <img className="w-12 hidden dark:block" src="/images/Winstagram.png" alt="Instagram" />
               </a>
             </div>
+            <a href="#">
+              <button className="flex items-center bg-green-400 text-white hover:text-white border border-green-400 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-base px-5 py-1 text-center mt-7 me-4 mb-2 dark:bg-green-400 dark:hover:text-white dark:hover:bg-green-500 dark:focus:ring-green-400">
+                  <img className="w-8 mr-2" src="/images/link.png" alt="" />
+                  GET MY RESUME
+              </button>
+            </a>
+
+
+            
           </div>
 
           {/* Image */}
           <div className="lg:col-span-7 flex justify-center lg:justify-end mt-10 lg:mt-0">
-            <img className="w-full max-w-xs md:max-w-sm lg:max-w-md object-contain" src="/images/image.png" alt="My Photo" />
+            <img
+              className="w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain"
+              src="/images/image1.png"
+              alt="My Photo"/>
           </div>
+
 
         </div>
 
@@ -270,13 +284,13 @@ function Hero() {
 
                 </p>
 
-                
+
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/react.png" alt="Medium avatar"/>
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/react.png" alt="Medium avatar" />
                 </div>
 
                 <div className="mt-5 flex justify-center">
@@ -306,14 +320,14 @@ function Hero() {
                 </p>
 
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/java.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/captcha.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/mysql.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/gmail.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/twillio.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/el.png" alt="Medium avatar"/>
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/java.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/captcha.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/mysql.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/gmail.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/twillio.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/el.png" alt="Medium avatar" />
                 </div>
 
                 <div className="mt-5 flex justify-center">
@@ -324,7 +338,7 @@ function Hero() {
                     </svg>
                   </a>
                 </div>
-              
+
               </div>
             </div>
 
@@ -342,12 +356,12 @@ function Hero() {
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   Built a responsive weather forecasting web app using HTML, CSS, and JavaScript. Integrated an external API to fetch and display real-time weather data, improving user experience.
                 </p>
-                
+
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/openWeather.png" alt="Medium avatar"/>
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/openWeather.png" alt="Medium avatar" />
                 </div>
 
                 <div className="mt-5 flex justify-center">
@@ -377,12 +391,12 @@ function Hero() {
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   Built a clean, responsive basic calendar using HTML, CSS, and JavaScript. It displays dates dynamically and adapts well across devices, demonstrating foundational web development skills.
                 </p>
-                
+
 
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar"/>
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
                 </div>
 
 
@@ -413,13 +427,13 @@ function Hero() {
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   An Arduino-based radar that uses a rotating ultrasonic sensor to detect objects up to 400 mm. It measures the object’s distance and angle, displaying live visualization on a computer screen. This project showcases Arduino control, sensor use, and real-time data display.
                 </p>
-                
+
 
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/arduino.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/cpp.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/processing.png" alt="Medium avatar"/>
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/ultrasonic.png" alt="Medium avatar"/>
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/arduino.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/cpp.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/processing.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/ultrasonic.png" alt="Medium avatar" />
                 </div>
 
 
@@ -438,6 +452,9 @@ function Hero() {
 
           </div>
         </div>
+
+        Acheivements
+       
 
 
 
