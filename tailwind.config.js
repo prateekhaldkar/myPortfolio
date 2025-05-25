@@ -8,6 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        orng: '#f36d06',
+        orngl: '#e9a673',
+        clifford: '#da373d',
+        
         primary: {
           "50": "#eff6ff",
           "100": "#dbeafe",

@@ -1,5 +1,19 @@
+import "swiper/css";
 import { script } from "framer-motion/client";
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+const images = [
+  "/images/certificate1.png",
+  "/images/certificate2.png",
+  "/images/certificate3.png",
+  "/images/certificate4.png",
+  "/images/certificate5.png",
+  "/images/certificate6.png",
+  "/images/certificate7.png",
+  "/images/certificate8.png",
+];
 
 function Hero() {
   return (
@@ -35,7 +49,7 @@ function Hero() {
               </a>
             </div>
             <a href="#">
-              <button className="flex items-center bg-green-400 text-white hover:text-white border border-green-400 hover:bg-green-500 focus:ring-4 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-base px-5 py-1 text-center mt-7 me-4 mb-2 dark:bg-green-400 dark:hover:text-white dark:hover:bg-green-500 dark:focus:ring-green-400">
+              <button className="flex items-center bg-green-400 text-white hover:text-white border border-green-400 hover:bg-green-500 focus:ring-2 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-base px-5 py-1 text-center mt-7 me-4 mb-2 dark:bg-green-400 dark:hover:text-white dark:hover:bg-green-500 dark:focus:ring-green-400">
                   <img className="w-8 mr-2" src="/images/link.png" alt="" />
                   GET MY RESUME
               </button>
@@ -453,10 +467,41 @@ function Hero() {
           </div>
         </div>
 
-        Acheivements
+        {/* Acheivements */}
+
+        <div className="flex justify-center items-center flex-col">
+          <div className="text-center mt-10">
+            <div className="italic place-self-center text-3xl font-bold text-green-400 dark:text-green-400 dark:bg-black">
+              <u>Acheivements</u>
+            </div>
+          </div>
+
+          <div id="c_cor" className="w-full max-w-6xl px-6 mt-10">
+            <Swiper
+              modules={[Autoplay]}
+              slidesPerView={3}
+              spaceBetween={30}
+              loop={true}
+              autoplay={{
+                delay: 2000,
+                disableOnInteraction: false,
+              }}
+            >
+              {images.map((img, index) => (
+                <SwiperSlide key={index}>
+                  <img
+                    src={img}
+                    alt={`Slide ${index + 1}`}
+                    className="w-full h-full object-cover rounded-xl shadow-md"
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+
+          </div>
+
+        </div>
        
-
-
 
       </section>
     </>
@@ -464,3 +509,4 @@ function Hero() {
 }
 
 export default Hero;
+
