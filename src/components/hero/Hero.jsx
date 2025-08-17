@@ -209,11 +209,11 @@ function Hero() {
 
                 <div className="flex flex-wrap items-center">
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/react.png" alt="" />
+                    <img className="w-8 mr-2" src="/images/aws_Logo.png" alt="" />
                     AWS
                   </button>
                   <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/react.png" alt="" />
+                    <img className="w-8 mr-2" src="/images/azure.png" alt="" />
                     Azure
                   </button>
                 </div>
