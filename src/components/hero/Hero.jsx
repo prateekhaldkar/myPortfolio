@@ -59,12 +59,22 @@ function Hero() {
             
           </div>
 
-          {/* Image */}
+
+          {/* Image */}          
           <div className="lg:col-span-7 flex justify-center lg:justify-end mt-10 lg:mt-0">
+            {/* Laptop ya large screen ke liye image */}
             <img
-              className="w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain"
+              className="hidden lg:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
               src="/images/image1.png"
-              alt="My Photo"/>
+              alt="My Photo"
+            />
+
+            {/* Chhoti screen ke liye dusri image */}
+            <img
+              className="block lg:hidden w-full max-w-sm object-contain mx-auto"
+              src="/images/image2.png"
+              alt="My Photo"
+            />
           </div>
 
 
@@ -99,8 +109,8 @@ function Hero() {
         {/* SKILLS */}
         <div className="bg-white dark:bg-gray-800 px-4 mx-4  rounded-xl shadow">
 
-          <div className="italic place-self-center text-3xl font-bold text-green-400 dark:text-green-400 dark:bg-black">
-            <u>SKILLS</u>
+          <div className="mt-5 pt-5 pb-5 italic place-self-center text-3xl font-bold text-green-400 dark:text-green-400 dark:bg-black">
+            <u className="" >SKILLS</u>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -108,167 +118,165 @@ function Hero() {
             <div className="">
               {/* Frontend Technologies */}
               <div>
-                <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
+                <h1 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200">
                   Frontend Technologies
                 </h1>
 
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/html.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/html.png" alt="" />
                     HTML
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/css.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/css.png" alt="" />
                     CSS
                   </button>
                 </div>
-
               </div>
 
               {/* Programming Languages */}
               <div>
-                <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
+                <h1 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200">
                   Programming Languages
                 </h1>
 
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/java.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/java.png" alt="" />
                     Core java
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/javascript.png" alt="" />
-                    javascript
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/javascript.png" alt="" />
+                    JavaScript
                   </button>
                 </div>
-
               </div>
 
-              {/* FrameWorks: */}
+              {/* FrameWorks */}
               <div className="">
-                <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
+                <h1 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200">
                   FrameWorks:
                 </h1>
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-base text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/react.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/react.png" alt="" />
                     ReactJS
                   </button>
-                  <button className="flex items-center text-base text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/bootstrap.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/bootstrap.png" alt="" />
                     Bootstrap
                   </button>
-                  <button className="flex items-center text-base text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/tailwindCSS.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/tailwindCSS.png" alt="" />
                     TailwindCSS
                   </button>
                 </div>
-
               </div>
 
-              {/* API s & Library: */}
+              {/* API s & Library */}
               <div className="">
-                <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
-                  API s & Library:
+                <h1 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200">
+                  APIs & Libraries:
                 </h1>
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/twillio.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/twillio.png" alt="" />
                     Twillio
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/gmail.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/gmail.png" alt="" />
                     JavaMail
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/captcha.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/captcha.png" alt="" />
                     Recaptcha
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/dropzone.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/dropzone.png" alt="" />
                     DropZone
                   </button>
                 </div>
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/fetchapi.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/fetchapi.png" alt="" />
                     Fetch API
                   </button>
                 </div>
-
               </div>
             </div>
 
             {/* right box */}
             <div>
-              {/* Cloud_Tech: */}
+              {/* Cloud_Tech */}
               <div>
-                <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
-                  Cloud platforms:
+                <h1 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200">
+                  Cloud Platforms:
                 </h1>
 
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/aws_Logo.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/aws_Logo.png" alt="" />
                     AWS
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/azure.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/azure.png" alt="" />
                     Azure
                   </button>
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/Netlify_logo.png" alt="" />
+                    Netlify
+                  </button>
                 </div>
-
               </div>
 
-              {/* Server Technologies: */}
+              {/* Server Technologies */}
               <div>
-                <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
+                <h1 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200">
                   Server Technologies:
                 </h1>
 
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/servlet.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/servlet.png" alt="" />
                     Servlet
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/jsp.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/jsp.png" alt="" />
                     JSP
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/el.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/el.png" alt="" />
                     EL
                   </button>
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/jstl.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/jstl.png" alt="" />
                     JSTL
                   </button>
                 </div>
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/mvc.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/mvc.png" alt="" />
                     MVC Architecture
                   </button>
                 </div>
-
               </div>
 
-              {/* DataBase: */}
+              {/* Database */}
               <div>
-                <h1 className="text-2xl font-bold text-gray-700  dark:text-gray-200">
-                  DataBase:
+                <h1 className="text-xl md:text-2xl font-bold text-gray-700 dark:text-gray-200">
+                  Database:
                 </h1>
 
                 <div className="flex flex-wrap items-center">
-                  <button className="flex items-center text-gray-200  dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-base px-5 py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900  dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
-                    <img className="w-8 mr-2" src="/images/mysql.png" alt="" />
+                  <button className="flex items-center text-sm md:text-base text-gray-200 dark:text-gray-200 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg px-3 py-2 md:px-5 md:py-2.5 text-center mt-4 me-4 mb-2 dark:bg-gray-900 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                    <img className="w-6 md:w-8 mr-2" src="/images/mysql.png" alt="" />
                     MySQL
                   </button>
                 </div>
-
               </div>
             </div>
           </div>
+
 
         </div>
 
@@ -466,6 +474,9 @@ function Hero() {
 
           </div>
         </div>
+
+        {/* Internship */}
+        
 
         {/* Acheivements */}
 
