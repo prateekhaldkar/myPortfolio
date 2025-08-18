@@ -51,7 +51,7 @@ function Hero() {
             <a href="#">
               <button className="flex items-center bg-green-400 text-white hover:text-white border border-green-400 hover:bg-green-500 focus:ring-2 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-base px-5 py-1 text-center mt-7 me-4 mb-2 dark:bg-green-400 dark:hover:text-white dark:hover:bg-green-500 dark:focus:ring-green-400">
                   <img className="w-8 mr-2" src="/images/link.png" alt="" />
-                  GET MY RESUME nmo
+                  GET MY RESUME
               </button>
             </a>
 
@@ -61,17 +61,21 @@ function Hero() {
 
 
           {/* Image section */}          
-          <div className="lg:col-span-7 flex flex-col lg:flex-row justify-center lg:justify-end mt-10 lg:mt-0">
+          <div className="lg:col-span-7 flex justify-center lg:justify-end mt-10 lg:mt-0">
+            {/* Laptop ya large screen ke liye image */}
             <img
-              className="w-full max-w-sm object-contain mx-auto"
+              className="hidden lg:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
+              src="/images/image1.png"
+              alt="My Photo"
+            />
+
+            {/* Chhoti screen ke liye dusri image */}
+            <img
+              className="block lg:hidden w-full max-w-sm object-contain mx-auto"
               src="/images/image2.png"
-              alt="My Photo2"
+              alt="My Photo"
             />
           </div>
-
-
-
-
 
 
         </div>
@@ -304,11 +308,11 @@ function Hero() {
 
 
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-jese" className="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-roberta" className="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/react.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/react.png" alt="Medium avatar" />
                 </div>
 
                 <div className="mt-5 flex justify-center">
@@ -338,14 +342,14 @@ function Hero() {
                 </p>
 
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/java.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/captcha.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/mysql.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/gmail.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/twillio.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/el.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/java.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/captcha.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/mysql.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/gmail.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/twillio.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/el.png" alt="Medium avatar" />
                 </div>
 
                 <div className="mt-5 flex justify-center">
@@ -376,10 +380,10 @@ function Hero() {
                 </p>
 
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-jese" className="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-roberta" className="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/openWeather.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/openWeather.png" alt="Medium avatar" />
                 </div>
 
                 <div className="mt-5 flex justify-center">
@@ -412,9 +416,9 @@ function Hero() {
 
 
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-jese" className="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-roberta" className="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
                 </div>
 
 
@@ -448,10 +452,10 @@ function Hero() {
 
 
                 <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-roberta" className="w-10 h-10 rounded-sm" src="/images/arduino.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-jese" className="w-10 h-10 rounded-sm" src="/images/cpp.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/processing.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" className="w-10 h-10 rounded-sm" src="/images/ultrasonic.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/arduino.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/cpp.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/processing.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/ultrasonic.png" alt="Medium avatar" />
                 </div>
 
 
