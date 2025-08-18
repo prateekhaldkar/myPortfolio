@@ -63,11 +63,8 @@ function Hero() {
           {/* Image section */}          
           <div className="lg:col-span-7 flex justify-center lg:justify-end mt-10 lg:mt-0">
             {/* Laptop ya large screen ke liye image */}
-            <img
-              className="hidden lg:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
-              src="/images/image1.png"
-              alt="My Photo"
-            />
+            
+            
 
             {/* Chhoti screen ke liye dusri image */}
             <picture>
