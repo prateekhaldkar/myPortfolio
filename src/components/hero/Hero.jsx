@@ -63,8 +63,9 @@ function Hero() {
           {/* Image section */}          
           <div className="lg:col-span-7 flex justify-center lg:justify-end mt-10 lg:mt-0">
             {/* Large screens (tablet aur laptop) ke liye - Right side me align */}
+            {/* Debugging ke liye temporary */}
             <img
-              className="hidden md:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
+              className="md:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
               src="/images/image1.png"
               alt="My Photo1"
             />
