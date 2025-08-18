@@ -62,20 +62,12 @@ function Hero() {
 
           {/* Image section */}          
           <div className="lg:col-span-7 flex justify-center lg:justify-end mt-10 lg:mt-0">
-  {/* Laptop aur large screen ke liye image */}
-  <img
-    className="hidden md:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
-    src="/images/image1.png"
-    alt="My Photo"
-  />
+            {/* Laptop aur large screen ke liye image */}
+            <img className=" md:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto" src="/images/image1.png" alt="My Photo"/>
 
-  {/* Small screen ke liye dusri image */}
-  <img
-    className="block md:hidden w-full max-w-sm object-contain mx-auto"
-    src="/images/image2.png"
-    alt="My Photo"
-  />
-</div>
+            {/* Small screen ke liye dusri image */}
+            <img className="block md:hidden w-full max-w-sm object-contain mx-auto" src="/images/image2.png" alt="My Photo" />
+          </div>
 
 
 
