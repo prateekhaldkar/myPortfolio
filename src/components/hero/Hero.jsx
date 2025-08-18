@@ -65,16 +65,16 @@ function Hero() {
             {/* Large screens (tablet aur laptop) ke liye - Right side me align */}
             {/* Debugging ke liye temporary */}
             <img
-              className="max-lg:hidden w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
-              src="/images/image1.png"
-              alt="My Photo1"
+              className="hidden lg:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto" 
+  src="/images/image1.png" 
+  alt="My Photo1"
             />
 
             {/* Small screens ke liye - Center me align */}
             <img
-              className="block md:hidden w-full max-w-sm object-contain mx-auto"
-              src="/images/image2.png"
-              alt="My Photo2"
+              className="block lg:hidden w-full max-w-sm object-contain mx-auto" 
+  src="/images/image2.png" 
+  alt="My Photo2"
             />
           </div>
 
