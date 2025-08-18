@@ -60,7 +60,7 @@ function Hero() {
           </div>
 
 
-          {/* Image */}          
+          {/* Image section */}          
           <div className="lg:col-span-7 flex justify-center lg:justify-end mt-10 lg:mt-0">
             {/* Laptop ya large screen ke liye image */}
             <img
