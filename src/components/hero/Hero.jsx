@@ -61,21 +61,22 @@ function Hero() {
 
 
           {/* Image section */}          
-          <div className="lg:col-span-7 flex justify-center lg:justify-end mt-10 lg:mt-0">
-  {/* Large screens (tablet aur laptop) ke liye - Right side me align */}
-  <img
-    className="hidden lg:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
-    src="/images/image1.png"
-    alt="My Photo1"
-  />
+          <div className="lg:col-span-7 flex flex-col lg:flex-row justify-center lg:justify-end mt-10 lg:mt-0">
+            {/* Large screens (tablet aur laptop) ke liye - Right side me align */}
+            <img
+              className="hidden lg:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain"
+              src="/images/image1.png"
+              alt="My Photo1"
+            />
 
-  {/* Small screens ke liye - Center me align */}
-  <img
-    className="block lg:hidden w-full max-w-sm object-contain mx-auto"
-    src="/images/image2.png"
-    alt="My Photo2"
-  />
-</div>
+            {/* Small screens ke liye - Center me align */}
+            <img
+              className="block lg:hidden w-full max-w-sm object-contain mx-auto"
+              src="/images/image2.png"
+              alt="My Photo2"
+            />
+          </div>
+
 
 
 
