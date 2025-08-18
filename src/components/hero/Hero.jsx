@@ -51,7 +51,7 @@ function Hero() {
             <a href="#">
               <button className="flex items-center bg-green-400 text-white hover:text-white border border-green-400 hover:bg-green-500 focus:ring-2 focus:outline-none focus:ring-green-400 font-medium rounded-lg text-base px-5 py-1 text-center mt-7 me-4 mb-2 dark:bg-green-400 dark:hover:text-white dark:hover:bg-green-500 dark:focus:ring-green-400">
                   <img className="w-8 mr-2" src="/images/link.png" alt="" />
-                  GET MY RESUME
+                  GET MY RESUME h
               </button>
             </a>
 
