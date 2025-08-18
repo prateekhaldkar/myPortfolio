@@ -65,7 +65,7 @@ function Hero() {
             {/* Large screens (tablet aur laptop) ke liye - Right side me align */}
             {/* Debugging ke liye temporary */}
             <img
-              className="md:block w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
+              className="max-lg:hidden w-full max-w-lg md:max-w-xl lg:max-w-2xl object-contain ml-auto"
               src="/images/image1.png"
               alt="My Photo1"
             />
