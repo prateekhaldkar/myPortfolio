@@ -70,11 +70,14 @@ function Hero() {
             />
 
             {/* Chhoti screen ke liye dusri image */}
-            <img
-              className="block lg:hidden w-full max-w-sm object-contain mx-auto"
-              src="/images/image2.png"
-              alt="My Photo"
-            />
+            <picture>
+              <source media="(min-width:1024px)" srcSet="/images/image1.png" />
+              <img
+                className="block lg:hidden w-full max-w-sm object-contain mx-auto"
+                src="/images/image2.png"
+                alt="My Photo"
+              />
+            </picture>
           </div>
 
 
