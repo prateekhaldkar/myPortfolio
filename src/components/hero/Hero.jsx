@@ -281,6 +281,168 @@ function Hero() {
         </div>
 
 
+        {/* Internship */}
+
+        <div className="bg-white dark:bg-gray-800 px-4 mx-4  rounded-xl shadow">
+
+          <div className="mt-5 pt-5 pb-5 italic place-self-center text-3xl font-bold text-green-400 dark:text-green-400 dark:bg-black">
+            <u className="" >INTERNSHIP</u>
+          </div>
+
+          <div>
+            <div className="rounded pb-8">
+              {/* Main Internship Card */}
+              <div className="rounded-xl shadow bg-gray-800 dark:bg-gray-900 rounded-2xl p-8 shadow-2xl border border-gray-700 hover:border-green-400 transition-all duration-300">
+
+                {/* Header with Company Logo Style */}
+                <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6 mb-8">
+                  <div className="flex-1">
+                    {/* Company Badge */}
+                    <div className="flex items-center gap-4 mb-4">
+                      <div>
+                        <h3 className="text-2xl font-bold text-white mb-1">Networking Intern</h3>
+                        <p className="text-green-400 font-semibold text-lg">Cisco AICTE Virtual Internship Program</p>
+                      </div>
+                    </div>
+
+                    {/* Location & Duration */}
+                    <div className="flex flex-wrap gap-4 text-gray-300">
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-green-400 rounded-full"></div>
+                        <span>Remote Work</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
+                        <span>May - July 2024</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Main Content Grid */}
+                <div className="grid lg:grid-cols-2 gap-8">
+
+                  {/* Left Column - Learning Areas */}
+                  <div>
+                    <h4 className="text-xl font-bold text-white mb-6 flex items-center gap-3">
+                      <div className="w-8 h-8 bg-gradient-to-br from-green-400 to-green-500 rounded-lg flex items-center justify-center">
+                        <svg className="w-4 h-4 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                        </svg>
+                      </div>
+                      Learning Areas
+                    </h4>
+
+                    <div className="space-y-4">
+                      <div className="bg-gray-700 hover:bg-gray-650 p-4 rounded-xl transition-all duration-200 border-l-4 border-blue-400">
+                        <div className="flex items-start gap-3">
+                          <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <div>
+                            <p className="text-white font-medium">Network Design & Configuration</p>
+                            <p className="text-gray-400 text-sm mt-1">Fundamental networking concepts and implementation</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="bg-gray-700 hover:bg-gray-650 p-4 rounded-xl transition-all duration-200 border-l-4 border-green-400">
+                        <div className="flex items-start gap-3">
+                          <div className="w-2 h-2 bg-green-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <div>
+                            <p className="text-white font-medium">WAN Technologies</p>
+                            <p className="text-gray-400 text-sm mt-1">Wide Area Network setup and management</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="bg-gray-700 hover:bg-gray-650 p-4 rounded-xl transition-all duration-200 border-l-4 border-purple-400">
+                        <div className="flex items-start gap-3">
+                          <div className="w-2 h-2 bg-purple-400 rounded-full mt-2 flex-shrink-0"></div>
+                          <div>
+                            <p className="text-white font-medium">Routing & IP Addressing</p>
+                            <p className="text-gray-400 text-sm mt-1">routing technique and IP schemes</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  {/* Right Column - Project & Skills */}
+                  <div>
+                    {/* Major Project */}
+                    <div className="bg-gradient-to-br from-green-400/10 to-blue-400/10 border border-green-400/30 rounded-xl p-6 mb-6">
+                      <h4 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+                        <div className="w-8 h-8 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-lg flex items-center justify-center">
+                          <svg className="w-4 h-4 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                          </svg>
+                        </div>
+                        Major Project
+                      </h4>
+                      <div className="bg-gray-700/50 rounded-lg p-4">
+                        <h5 className="text-green-400 font-semibold mb-2">Inter-Network Communication System</h5>
+                        <p className="text-gray-300 text-sm leading-relaxed">
+                          Designed and simulated a comprehensive network infrastructure demonstrating seamless communication between two different networks using routers, switches, and PCs in Cisco Packet Tracer.
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Technologies */}
+                    <div>
+                      <h4 className="text-xl font-bold text-white mb-4 flex items-center gap-3">
+                        <div className="w-8 h-8 bg-gradient-to-br from-purple-400 to-purple-500 rounded-lg flex items-center justify-center">
+                          <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                          </svg>
+                        </div>
+                        Technologies & Skills
+                      </h4>
+                      <div className="flex flex-wrap gap-3">
+                        <span className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+                          Cisco Packet Tracer
+                        </span>
+                        <span className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+                          Network Design
+                        </span>
+                        <span className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+                          Routing Protocols
+                        </span>
+                        <span className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+                          IP Addressing
+                        </span>
+                        <span className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+                          Network Security
+                        </span>
+                        <span className="bg-gradient-to-r from-blue-500 to-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105">
+                          WAN Technologies
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Bottom Action Button */}
+                <div className="mt-8 text-center">
+                  <a target="_blank" href="https://www.linkedin.com/posts/prateek-haldkar-0a277725b_networking-cisco-shriraminstituteoftechnology-activity-7245080745172496384-q7_g?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEAB6roBxJ_XrJeGEBsaD_eAkZhCiD6IPe0">
+                    <button className="bg-gradient-to-r from-green-400 to-green-600 hover:from-green-500 hover:to-green-600 text-gray-900 px-8 py-4 rounded-xl font-bold text-lg transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-2 flex items-center gap-3 mx-auto">
+                      <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clipRule="evenodd" />
+                      </svg>
+                        View Certificate
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>            
+            
+          </div>
+
+        </div>
+
+
         {/* projects */}
         <div className="flex justify-center items-center flex-col">
           <div className="text-center mt-10">
@@ -496,20 +658,6 @@ function Hero() {
 
           </div>
         </div>
-
-        {/* Internship */}
-
-        <div className="bg-white dark:bg-gray-800 px-4 mx-4  rounded-xl shadow">
-
-          <div className="mt-5 pt-5 pb-5 italic place-self-center text-3xl font-bold text-green-400 dark:text-green-400 dark:bg-black">
-            <u className="" >SKILLS</u>
-          </div>
-
-          <div>
-            <h1>Internship vala section</h1>
-          </div>
-        </div>
-        
 
         {/* Acheivements */}
 
