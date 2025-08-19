@@ -330,40 +330,40 @@ function Hero() {
 
 
             {/* Card 2 */}
+
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
-              <a href="https://dainty-unicorn-550719.netlify.app/" target="_blank">
-                <img className="rounded-t-lg" src="images/eventcalendar.png" alt="" />
+              <a href="https://prateekhaldkar.github.io/weather-app/" target="_blank">
+                <img className="rounded-t-lg" src="images/wetherforcastingapp.png" alt="" />
               </a>
               <div className="p-5">
-                <a href="https://dainty-unicorn-550719.netlify.app/" target="_blank">
+                <a href="https://prateekhaldkar.github.io/weather-app/" target="_blank">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Event calendar
+                    Weather Forcasting Web App
                   </h5>
                 </a>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  Built Event Calendar using React.js and Tailwind CSS, supporting event creation, editing, deletion, and smooth month navigation with reminders for scheduled events. Implemented advanced calendar logic and deployed the application on AWS for live usability.
-
+                  Built a responsive weather forecasting web app using HTML, CSS, and JavaScript. Integrated an external API to fetch and display real-time weather data, improving user experience.
                 </p>
-
 
                 <div className="flex justify-center items-center ">
                   <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
                   <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
                   <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/react.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/openWeather.png" alt="Medium avatar" />
                 </div>
 
                 <div className="mt-5 flex justify-center">
-                  <a href="https://dainty-unicorn-550719.netlify.app/" target="_blank" className="justify-center w-full inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    View
+                  <a href="https://prateekhaldkar.github.io/weather-app/" target="_blank" className="justify-center w-full inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    view
                     <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                     </svg>
                   </a>
                 </div>
+
               </div>
             </div>
+            
 
             {/* Card 3 */}
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
@@ -405,35 +405,37 @@ function Hero() {
 
             {/* Card 4*/}
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
-              <a href="https://prateekhaldkar.github.io/weather-app/" target="_blank">
-                <img className="rounded-t-lg" src="images/wetherforcastingapp.png" alt="" />
+              <a href="https://dainty-unicorn-550719.netlify.app/" target="_blank">
+                <img className="rounded-t-lg" src="images/eventcalendar.png" alt="" />
               </a>
               <div className="p-5">
-                <a href="https://prateekhaldkar.github.io/weather-app/" target="_blank">
+                <a href="https://dainty-unicorn-550719.netlify.app/" target="_blank">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Weather Forcasting Web App
+                    Event calendar
                   </h5>
                 </a>
                 <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  Built a responsive weather forecasting web app using HTML, CSS, and JavaScript. Integrated an external API to fetch and display real-time weather data, improving user experience.
+                  Built Event Calendar using React.js and Tailwind CSS, supporting event creation, editing, deletion, and smooth month navigation with reminders for scheduled events. Implemented advanced calendar logic and deployed the application on AWS for live usability.
+
                 </p>
+
 
                 <div className="flex justify-center items-center ">
                   <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/html.png" alt="Medium avatar" />
                   <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/css.png" alt="Medium avatar" />
                   <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/openWeather.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/tailwindCSS.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/react.png" alt="Medium avatar" />
                 </div>
 
                 <div className="mt-5 flex justify-center">
-                  <a href="https://prateekhaldkar.github.io/weather-app/" target="_blank" className="justify-center w-full inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    view
+                  <a href="https://dainty-unicorn-550719.netlify.app/" target="_blank" className="justify-center w-full inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    View
                     <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                       <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                     </svg>
                   </a>
                 </div>
-
               </div>
             </div>
 
