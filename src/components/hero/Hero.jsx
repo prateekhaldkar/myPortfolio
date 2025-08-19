@@ -453,7 +453,9 @@ function Hero() {
       </h5>
     </a>
     <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-      Built a clean, responsive basic calendar...
+      Built a clean, responsive basic calendar using HTML, CSS, and JavaScript. 
+      It displays dates dynamically and adapts well across devices, demonstrating 
+      foundational web development skills.
     </p>
 
     <div className="flex justify-center items-center gap-2">
