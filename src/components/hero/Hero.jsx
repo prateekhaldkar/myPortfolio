@@ -290,7 +290,46 @@ function Hero() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 px-4">
-            {/* Card 1 */}
+
+
+            {/* Card 1*/}
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
+              <a href="#">
+                <img className="rounded-t-lg" src="images/radarSystem.png" alt="" />
+              </a>
+              <div className="p-5">
+                <a href="#">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    Radar System
+                  </h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  An Arduino-based radar that uses a rotating ultrasonic sensor to detect objects up to 400 mm. It measures the object’s distance and angle, displaying live visualization on a computer screen. This project showcases Arduino control, sensor use, and real-time data display.
+                </p>
+
+
+                <div className="flex justify-center items-center ">
+                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/arduino.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/cpp.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/processing.png" alt="Medium avatar" />
+                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/ultrasonic.png" alt="Medium avatar" />
+                </div>
+
+
+                <div className="mt-5 flex justify-center">
+                  <a href="#" className="justify-center w-full inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    view
+                    <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                    </svg>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
+
+            {/* Card 2 */}
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
               <a href="https://dainty-unicorn-550719.netlify.app/" target="_blank">
                 <img className="rounded-t-lg" src="images/eventcalendar.png" alt="" />
@@ -326,7 +365,7 @@ function Hero() {
               </div>
             </div>
 
-            {/* Card 2 */}
+            {/* Card 3 */}
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
               <a href="https://github.com/prateekhaldkar/lmsystem" target="_blank">
                 <img className="rounded-t-lg" src="images/librarypic.png" alt="" />
@@ -364,7 +403,7 @@ function Hero() {
               </div>
             </div>
 
-            {/* Card 3*/}
+            {/* Card 4*/}
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
               <a href="https://prateekhaldkar.github.io/weather-app/" target="_blank">
                 <img className="rounded-t-lg" src="images/wetherforcastingapp.png" alt="" />
@@ -399,7 +438,7 @@ function Hero() {
             </div>
 
 
-            {/* Card 4*/}
+            {/* Card 5*/}
             <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
               <a href="#">
                 <img className="rounded-t-lg" src="images/basic_calendar.png" alt="" />
@@ -433,44 +472,6 @@ function Hero() {
 
               </div>
             </div>
-
-
-            {/* Card 5*/}
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
-              <a href="#">
-                <img className="rounded-t-lg" src="images/radarSystem.png" alt="" />
-              </a>
-              <div className="p-5">
-                <a href="#">
-                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                    Radar System
-                  </h5>
-                </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  An Arduino-based radar that uses a rotating ultrasonic sensor to detect objects up to 400 mm. It measures the object’s distance and angle, displaying live visualization on a computer screen. This project showcases Arduino control, sensor use, and real-time data display.
-                </p>
-
-
-                <div className="flex justify-center items-center ">
-                  <img data-tooltip-target="tooltip-roberta" class="w-10 h-10 rounded-sm" src="/images/arduino.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-jese" class="w-10 h-10 rounded-sm" src="/images/cpp.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/processing.png" alt="Medium avatar" />
-                  <img data-tooltip-target="tooltip-bonnie" class="w-10 h-10 rounded-sm" src="/images/ultrasonic.png" alt="Medium avatar" />
-                </div>
-
-
-                <div className="mt-5 flex justify-center">
-                  <a href="#" className="justify-center w-full inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    view
-                    <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                    </svg>
-                  </a>
-                </div>
-
-              </div>
-            </div>
-
 
           </div>
         </div>
