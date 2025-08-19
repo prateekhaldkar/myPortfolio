@@ -498,6 +498,17 @@ function Hero() {
         </div>
 
         {/* Internship */}
+
+        <div className="bg-white dark:bg-gray-800 px-4 mx-4  rounded-xl shadow">
+
+          <div className="mt-5 pt-5 pb-5 italic place-self-center text-3xl font-bold text-green-400 dark:text-green-400 dark:bg-black">
+            <u className="" >SKILLS</u>
+          </div>
+
+          <div>
+            <h1>Internship vala section</h1>
+          </div>
+        </div>
         
 
         {/* Acheivements */}
