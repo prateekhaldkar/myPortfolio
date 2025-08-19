@@ -441,31 +441,7 @@ function Hero() {
 
 
             {/* Card 5*/}
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4 flex flex-col">
-  <a href="#">
-    <img className="rounded-t-lg" src="images/basic_calendar.png" alt="" />
-  </a>
-
-  <div className="p-5 flex flex-col h-full">
-    <a href="#">
-      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Basic Calendar
-      </h5>
-    </a>
-    <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-      Built a clean, responsive basic calendar using HTML, CSS, and JavaScript. 
-      It displays dates dynamically and adapts well across devices, demonstrating 
-      foundational web development skills.
-    </p>
-
-    <div className="flex justify-center items-center gap-2">
-      <img className="w-10 h-10 rounded-sm" src="/images/html.png" alt="HTML" />
-      <img className="w-10 h-10 rounded-sm" src="/images/css.png" alt="CSS" />
-      <img className="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="JS" />
-    </div>
-
-    {/* Button hamesha bottom me */}
-    <div className="max-w-sm h-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4 flex flex-col">
+            <div className="max-w-sm h-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4 flex flex-col">
   <a href="#">
     <img className="rounded-t-lg" src="images/basic_calendar.png" alt="" />
   </a>
@@ -495,11 +471,6 @@ function Hero() {
         </svg>
       </a>
     </div>
-  </div>
-</div>
-
-
-
   </div>
 </div>
 
