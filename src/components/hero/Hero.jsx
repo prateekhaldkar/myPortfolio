@@ -654,6 +654,57 @@ function Hero() {
               </div>
             </div>
 
+             {/* Card 6*/}
+            <div className="relative max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 mx-4">
+              <a href="https://directchatonwhatsap.netlify.app/">
+                <img className="rounded-t-lg" src="images/whatsappChat.png" alt="" />
+              </a>
+
+              <div className="p-5 pb-16">
+                <a href="https://directchatonwhatsap.netlify.app/">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                      Direct Chat On Whatsapp
+                  </h5>
+                </a>
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  A lightweight web application that lets users start a WhatsApp chat without saving the contact.
+                  Simply enter a mobile number and it instantly redirects to the WhatsApp chat window for quick communication.
+                </p>
+
+                <div className="flex justify-center items-center gap-2">
+                  <img className="w-10 h-10 rounded-sm" src="/images/html.png" alt="HTML" />
+                  <img className="w-10 h-10 rounded-sm" src="/images/css.png" alt="CSS" />
+                  <img className="w-10 h-10 rounded-sm" src="/images/javascript.png" alt="JS" />
+                </div>
+
+                {/* Bottom-pe chipka button */}
+                <div className="absolute left-0 right-0 bottom-5 px-5">
+                  <a
+                    href="https://directchatonwhatsap.netlify.app/"
+                    className="w-full inline-flex justify-center items-center px-3 py-2 text-sm font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  >
+                    view
+                    <svg
+                      className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 14 10"
+                    >
+                      <path
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M1 5h12m0 0L9 1m4 4L9 9"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+
 
 
           </div>
